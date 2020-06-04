@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX1901.mk
+    $(LOCAL_DIR)/stag_RMX1901.mk
+
+COMMON_LUNCH_CHOICES :=\
+      stag_RMX1901-userdebug \
+      stag_RMX1901-eng \
+      stag_RMX1901-user 
